@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+
+  font-size: 30px;
+  font-family: 'Pangolin', cursive;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: beige;
+  background: url("classroom.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+h1{
+  font-weight: 500;
+  font-size: 45px;
+  margin: 0 auto;
+  width: 580px;
+  padding: 10px;
+  color: black;
+  background-color: beige;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+    font-family: 'Pangolin', cursive;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+    margin:30px
+}
+button:hover{
+	background-color: #38a;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 270px;
+  margin-top: 40px;
+  background-color: beige;
+  width: 600px;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+#results{
+  background-color: beige;
+  width:200px;
+  margin: 0 auto;
+}
